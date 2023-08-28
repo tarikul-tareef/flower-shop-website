@@ -22,7 +22,7 @@
   border: 0px;
 }
 
-section footer {
+.section-gap {
   margin-top: 128px;
 }
 
@@ -91,6 +91,28 @@ section footer {
 .instagram-images {
   display: flex;
   justify-content: space-between;
+}
+
+
+/* Subscribe Section Styles */
+
+.subscribe-section {
+  background-image: url(../images/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  padding: 122px 280px;
+}
+
+.subscribe-area input {
+  width: 600px;
+  height: 64px;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  border: 0px;
+  padding-left: 22px;
+  margin-top: 20px;
+  margin-right: 16px;
 }
 
 /* Footer Section Styles */
