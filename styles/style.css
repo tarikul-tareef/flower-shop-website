@@ -7,7 +7,7 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-.secton-container {
+.container {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -20,6 +20,28 @@
   font-size: 20px;
   font-weight: 700;
   border: 0px;
+}
+
+section footer {
+  margin-top: 128px;
+}
+
+.section-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.section-details {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.section-headings {
+  text-align: center;
 }
 
 /* Header Section Styles */
@@ -43,17 +65,32 @@
   margin-bottom: 32px;
 }
 
-.banner-description {
-  color: rgba(39, 39, 39, 0.60);
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 32px;
-}
-
 /* Our Feature Flowers Section Styles */
 
 /* Hot Deal Section Styles */
 
+#hot_deal-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
 
+.hot_deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 186px;
+  padding: 100px 170px;
+}
+
+.section-title span {
+  color: #E55473;
+}
+
+/* Social Media Section Styles */
+
+.instagram-images {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* Footer Section Styles */
